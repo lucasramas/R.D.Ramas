@@ -148,7 +148,7 @@ section .content p {
 }
 
 /* custom colors */
-#services .card circle {
+#representations .card circle {
   fill: var(--brand-light);
 }
 
@@ -388,19 +388,19 @@ body.menu-expanded button path {
   line-height: 150%;
 }
 
-/*=== SERVICES =================================*/
-#services header h2 {
+/*=== REPRESENTATIONS =================================*/
+#representations header h2 {
   margin-bottom: 6rem;
 }
 
-#services .cards {
+#representations .cards {
   /* Foi colocado o display flex para abilitar o gap para dar espaçamento */
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
 
-#services .card {
+#representations .card {
   padding: 2.4rem;
   text-align: left;
 
@@ -410,7 +410,7 @@ body.menu-expanded button path {
   border-radius: 0.6rem;
 }
 
-#services .card h3 {
+#representations .card h3 {
   margin-block: 1.6rem;
 }
 
@@ -727,19 +727,19 @@ footer .social-links {
     width: 42rem;
   }
 
-  /*=== SERVICES =================================*/
-  #services h2 {
+  /*=== REPRESENTATIONS =================================*/
+  #representations h2 {
     width: 47rem;
     margin-inline: auto;
   }
 
-  #services .cards {
+  #representations .cards {
     flex-direction: row; /* um ao lado do outro */
     flex-wrap: wrap; /* para respeitar o conteudo interno */
     gap: 4rem; /*espaço entre eles */
   }
 
-  #services .card {
+  #representations .card {
     width: 30%;
     flex-grow: 1; /*preencha o espaço restante e cresça */
   }
